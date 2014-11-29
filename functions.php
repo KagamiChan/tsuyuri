@@ -92,7 +92,9 @@ add_action( 'widgets_init', 'tsuyuri_widgets_init' );
  * Enqueue scripts and styles.
  */
 function tsuyuri_scripts() {
-	wp_enqueue_style( 'tsuyuri-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.3' );
+
+	wp_enqueue_style( 'tsuyuri-style', get_stylesheet_uri() ,array( 'genericons' ));
 
 	wp_enqueue_script( 'tsuyuri-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
