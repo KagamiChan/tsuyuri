@@ -57,7 +57,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
+	font-family: "PT Sans", sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -65,6 +65,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
+	color: #555;
 }
 
 html {
@@ -315,27 +316,30 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
+	border:none;
+	background-color:#3EC4F7;
+	color:#fff;
+	transition:0.5s;
+	/*border: 1px solid;*/
+	/*border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
 	background: #e6e6e6;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
+	color: rgba(0, 0, 0, .8);*/
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-	font-size: 12px;
-	font-size: 1.2rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+	background-color:#6FD1F7;
+	transition:0.5s;
+	/*border-color: #ccc #bbb #aaa;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);*/
 }
 
 button:focus,
@@ -372,7 +376,8 @@ input[type="search"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
-	border-radius: 3px;
+	/*border-radius: 3px;*/
+	transition: 0.5s;
 }
 
 input[type="text"]:focus,
@@ -382,6 +387,9 @@ input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
 	color: #111;
+	outline:none;
+	background-color:#f1f1f1;
+	transition: 0.5s;
 }
 
 input[type="text"],
@@ -405,19 +413,7 @@ textarea {
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
 
-a:visited {
-	color: purple;
-}
-
-a:hover,
-a:focus,
-a:active {
-	color: midnightblue;
-}
 
 /*--------------------------------------------------------------
 5.2 Menus
@@ -460,7 +456,7 @@ a:active {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	width: 300px;
 }
 
 .main-navigation ul ul li {
@@ -783,4 +779,144 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+/*THE BEGIN OF HACKS*/
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited{
+	color:inherit;
+}
+
+a:hover{
+	color:#ff2c00;
+}
+
+
+#masthead {
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.site-content,
+.main-navigation,
+.site-branding,
+.site-footer{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+}
+
+
+.main-navigation{
+	float:none;
+}
+
+#primary{
+	float:left;
+	width:75%;
+	padding-right:30px;
+}
+
+#secondary{
+	float:right;
+	width:25%;
+}
+
+.site-title{
+	width:240px;
+	float:left;
+	height:120px;
+	overflow:hidden;
+	text-indent: -999px;
+	background-image:url(/log_logo_14.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+
+}
+
+.site-description{
+	float:left;
+}
+
+.nav-menu li{
+	margin-right:20px;
+	display:block;
+	font-weight: 500;
+	height:1.5em;
+}
+
+.nav-menu :hover{
+	border-bottom: 2px #e3e3e3 solid;
+}
+
+.entry-title{
+	weight:600;
+	font-size: 150%;
+	color:#00ADEF;
+
+}
+
+.entry-title a:hover{
+	color:inherit;
+}
+
+aside li{
+	list-style:none;
+	font-size:90%;
+}
+
+aside h1{
+	/*font-size:110%;*/
+	text-transform:uppercase;
+}
+
+input[type="search"] {
+	border-bottom-width:2px;
+	transition:0.5s;
+}
+
+input[type="search"]:focus{
+	outline: none;
+	background-color:#f1f1f1;
+	transition:0.5s;
+	width:100%;
+}
+
+#commentform label{
+	display:inline-block;
+	width:4em;
+}
+
+.comment-body{
+	border-top: solid 1px #f1f1f1;
+	padding-bottom:0.5em;
+}
+
+.comment-meta {
+	background-color:#f7f7f7;
+}
+
+.comment-reply-link{
+	color:#3EC4F7;
+	transition:0.5s;
+}
+
+.comment-reply-link:hover{
+	color:#6FD1F7;
+	transition:0.5s;
+}
+
+ol .children{
+	border-left:solid 1px #f1f1f1;
+}
+
+.cat-links{
+	margin-right:20px;
 }
