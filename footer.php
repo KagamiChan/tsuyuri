@@ -15,6 +15,9 @@
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'tsuyuri' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'tsuyuri' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'tsuyuri' ), 'tsuyuri', '<a href="http://kagami.moe" rel="designer">Seki Kagami</a>' ); ?>
+			<span class="sep"> | </span>Hosted at Linode
+			<br/>
+			2013-<script>document.write(new Date().getFullYear());</script> 鏡 ＠ がんばらないプロジェクト/翠星製作所
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
