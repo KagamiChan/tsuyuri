@@ -878,7 +878,7 @@ a:hover{
 	background-color:rgba(255,255,255,0.8);
 }
 
-.page_item_has_children li:hover{
+.page_item_has_children .children li:hover{
 	border-bottom:0px;
 }
 
