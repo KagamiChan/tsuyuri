@@ -785,6 +785,10 @@ a:hover{
 	color:#ff2c00;
 }
 
+::selection{
+	background-color:#00aeef;
+	color:#fff;
+}
 
 #masthead {
 	width:100%;
