@@ -858,7 +858,9 @@ a:hover{
 	clear:none;
 	padding-left:2em;
 	padding-top:10px;
-	width:640px;
+	width:50%;
+	width:calc(80% - 160px);
+	max-width:1020px;
 }
 
 .nav-menu li{
