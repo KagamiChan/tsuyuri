@@ -798,6 +798,10 @@ a:hover{
 	padding-bottom:20px;
 }
 
+.site-footer a{
+	font-weight:600;
+}
+
 .site-content,
 .site-branding,
 .site-info{
