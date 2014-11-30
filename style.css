@@ -856,21 +856,28 @@ a:hover{
 	max-width:1020px;
 }
 
-.nav-menu li{
+.main-navigation .menu li{
 	margin-right:20px;
 	display:block;
 	font-weight: 600;
 	height:1.5em;
 	font-size:110%;
+	clear:none;
+	float:left;
 }
 
-.nav-menu li:hover{
+.main-navigation .menu li:hover{
 	border-bottom: 2px #e3e3e3 solid;
 }
 
 .page_item_has_children .children{
 	background-color:rgba(255,255,255,0.8);
 }
+
+.page_item_has_children li:hover{
+	border-bottom:0px;
+}
+
 .entry-title{
 	weight:600;
 	font-size: 150%;
@@ -945,4 +952,53 @@ ol .children{
 
 .headhesive--stick {
 	transform: translateY(0%); /* move it back on screen */
+	border-bottom:2px solid #f1f1f1;
+}
+
+#cancel-comment-reply-link {
+	color:#00aeef;
+}
+
+
+/*Media-section*/
+
+@media screen and (max-width: 720px) {
+	/*.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+		outline:none;
+		float:right;
+	}
+
+	.main-navigation ul {
+		display: none;
+	}*/
+
+	.site-title{
+		width:80px;
+		height:40px;
+	}
+
+	.main-navigation {
+		clear:both;
+		width: 80%;
+		padding:0px;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.main-navigation .menu li{
+		margin-right:20px;
+		display:block;
+		font-weight: 600;
+		height:1.5em;
+		font-size:100%;
+	}
+
+	#primary,
+	#secondary {
+		width:100%;
+	}
+
 }
