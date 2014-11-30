@@ -884,13 +884,25 @@ a:hover{
 
 .entry-title{
 	weight:600;
-	font-size: 150%;
+	font-size: 160%;
 	color:#00ADEF;
 
 }
 
+.post{
+	margin-bottom:3em;
+}
+
 .entry-title a:hover{
 	color:inherit;
+}
+
+.entry-content{
+	font-size:110%;
+}
+
+.entry-content a{
+	text-decoration:underline;
 }
 
 aside li{
@@ -1001,6 +1013,20 @@ ol .children{
 .comment-reply-title,
 .comments-title {
 	font-size:120%;
+}
+
+.comments-title {
+	margin-bottom:1em;
+}
+
+.comments-title:before{
+	content: '\f108';
+	font-family:"Genericons";
+}
+
+.comment-reply-title:before{
+	content: '\f516';
+	font-family:"Genericons";
 }
 /*Media-section*/
 
