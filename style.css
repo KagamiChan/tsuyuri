@@ -925,6 +925,11 @@ input[type="search"]:focus{
 	background-color:#f7f7f7;
 }
 
+.comment-reply-link:before{
+	content: '\f300';
+	font-family:"Genericons";
+}
+
 .comment-reply-link{
 	color:#3EC4F7;
 	transition:0.5s;
@@ -959,7 +964,39 @@ ol .children{
 	color:#00aeef;
 }
 
+#cancel-comment-reply-link:after{
+	content: '\f405';
+	font-family:"Genericons";
+}
 
+.posted-on:before{
+	content: '\f307';
+	font-family:"Genericons";
+}
+
+.cat-links:before{
+	content: '\f301';
+	font-family:"Genericons";
+}
+
+.tags-links:before{
+	content: '\f302';
+	font-family:"Genericons";
+}
+
+.comments-link:before{
+	content: '\f108';
+	font-family:"Genericons";
+}
+
+.comments-area {
+	border-top: 1px solid #f1f1f1;
+}
+
+.comment-reply-title,
+.comments-title {
+	font-size:120%;
+}
 /*Media-section*/
 
 @media screen and (max-width: 720px) {
