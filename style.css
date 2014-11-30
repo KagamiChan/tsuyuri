@@ -800,7 +800,7 @@ a:hover{
 #masthead {
 	width:100%;
 	margin-bottom: 20px;
-	background-color: #fff;
+	background-color:rgba(255,255,255,0.8);
 }
 
 .site-footer{
@@ -873,6 +873,9 @@ a:hover{
 	border-bottom: 2px #e3e3e3 solid;
 }
 
+.page_item_has_children .children{
+	background-color:rgba(255,255,255,0.8);
+}
 .entry-title{
 	weight:600;
 	font-size: 150%;
