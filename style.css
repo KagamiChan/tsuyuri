@@ -1038,6 +1038,7 @@ ol .children{
 	font-family:"tsuyuricons";
 }
 
+.edit-link:before;
 .comment-reply-title:before{
 	content: '\f040';
 	font-family:"tsuyuricons";
