@@ -991,15 +991,15 @@ ol .children{
 	font-family:"Genericons";
 }
 
-.cat-links:before{
+/*.cat-links:before{
 	content: '\f301';
 	font-family:"Genericons";
-}
+}*/
 
-.tags-links:before{
+/*.tags-links:before{
 	content: '\f302';
 	font-family:"Genericons";
-}
+}*/
 
 .comments-link:before{
 	content: '\f108';
@@ -1028,6 +1028,30 @@ ol .children{
 	content: '\f516';
 	font-family:"Genericons";
 }
+
+.cat-links a,
+.tags-links a{
+	padding-left:0.2em;
+	padding-right:0.4em;
+	transition:0.5s;
+}
+
+.cat-links a:before{
+	content: '\f301';
+	font-family:"Genericons";
+}
+
+.tags-links a:before{
+	content: '\f302';
+	font-family:"Genericons";
+}
+
+.cat-links a:hover,
+.tags-links a:hover{
+	transition:0.5s;
+}
+
+
 /*Media-section*/
 
 @media screen and (max-width: 720px) {
