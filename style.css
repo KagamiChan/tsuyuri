@@ -942,8 +942,8 @@ input[type="search"]:focus{
 }
 
 .comment-reply-link:before{
-	content: '\f300';
-	font-family:"Genericons";
+	content: '\f075';
+	font-family:"tsuyuricons";
 }
 
 .comment-reply-link{
@@ -982,28 +982,42 @@ ol .children{
 }
 
 #cancel-comment-reply-link:after{
-	content: '\f405';
-	font-family:"Genericons";
+	content: '\f00d';
+	font-family:"tsuyuricons";
 }
 
 .posted-on:before{
-	content: '\f307';
-	font-family:"Genericons";
+	content: '\f073';
+	font-family:"tsuyuricons";
 }
 
+.wordpress-footer:before{
+	content: '\f19a';
+	font-family:"tsuyuricons";
+}
+
+.theme-footer:before{
+	content: '\f1fc';
+	font-family:"tsuyuricons";
+}
+
+.host-footer:before{
+	content: '\f1c0';
+	font-family:"tsuyuricons";
+}
 /*.cat-links:before{
 	content: '\f301';
-	font-family:"Genericons";
+	font-family:"tsuyuricons";
 }*/
 
 /*.tags-links:before{
 	content: '\f302';
-	font-family:"Genericons";
+	font-family:"tsuyuricons";
 }*/
 
 .comments-link:before{
-	content: '\f108';
-	font-family:"Genericons";
+	content: '\f086';
+	font-family:"tsuyuricons";
 }
 
 .comments-area {
@@ -1020,13 +1034,13 @@ ol .children{
 }
 
 .comments-title:before{
-	content: '\f108';
-	font-family:"Genericons";
+	content: '\f086';
+	font-family:"tsuyuricons";
 }
 
 .comment-reply-title:before{
-	content: '\f516';
-	font-family:"Genericons";
+	content: '\f040';
+	font-family:"tsuyuricons";
 }
 
 .cat-links a,
@@ -1037,13 +1051,13 @@ ol .children{
 }
 
 .cat-links a:before{
-	content: '\f301';
-	font-family:"Genericons";
+	content: '\f07c';
+	font-family:"tsuyuricons";
 }
 
 .tags-links a:before{
-	content: '\f302';
-	font-family:"Genericons";
+	content: '\f02b';
+	font-family:"tsuyuricons";
 }
 
 .cat-links a:hover,
@@ -1051,6 +1065,10 @@ ol .children{
 	transition:0.5s;
 }
 
+.comments-link:before{
+	content: '\f086';
+	font-family:"tsuyuricons";
+}
 
 /*Media-section*/
 
