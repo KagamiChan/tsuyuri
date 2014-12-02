@@ -988,7 +988,7 @@ ol .children{
 	font-family:"tsuyuricons";
 }
 
-.posted-on:before{
+.entry-date:before{
 	content: '\f073';
 	font-family:"tsuyuricons";
 }
