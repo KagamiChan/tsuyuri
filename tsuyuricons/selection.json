@@ -4,6 +4,29 @@
 		{
 			"icon": {
 				"paths": [
+					"M961.714 461.714l-424 423.429q-10.857 10.857-25.714 10.857t-25.714-10.857l-424-423.429q-10.857-10.857-10.857-26t10.857-26l94.857-94.286q10.857-10.857 25.714-10.857t25.714 10.857l303.429 303.429 303.429-303.429q10.857-10.857 25.714-10.857t25.714 10.857l94.857 94.286q10.857 10.857 10.857 26t-10.857 26z"
+				],
+				"attrs": [],
+				"tags": [
+					"chevron-down"
+				],
+				"defaultCode": 61560,
+				"grid": 14
+			},
+			"attrs": [],
+			"properties": {
+				"id": 113,
+				"order": 16,
+				"prevSize": 28,
+				"code": 61560,
+				"name": "chevron-down"
+			},
+			"setIdx": 0,
+			"iconIdx": 113
+		},
+		{
+			"icon": {
+				"paths": [
 					"M804.571 802.857q0 68.571-41.714 108.286t-110.857 39.714h-499.429q-69.143 0-110.857-39.714t-41.714-108.286q0-30.286 2-59.143t8-62.286 15.143-62 24.571-55.714 35.429-46.286 48.857-30.571 63.714-11.429q5.143 0 24 12.286t42.571 27.429 61.714 27.429 76.286 12.286 76.286-12.286 61.714-27.429 42.571-27.429 24-12.286q34.857 0 63.714 11.429t48.857 30.571 35.429 46.286 24.571 55.714 15.143 62 8 62.286 2 59.143zM621.714 292.571q0 90.857-64.286 155.143t-155.143 64.286-155.143-64.286-64.286-155.143 64.286-155.143 155.143-64.286 155.143 64.286 64.286 155.143z"
 				],
 				"width": 805,
@@ -17,13 +40,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 7,
-				"order": 12,
+				"order": 11,
 				"prevSize": 28,
 				"code": 61447,
 				"name": "user"
 			},
 			"setIdx": 1,
-			"iconIdx": 7
+			"iconIdx": 0
 		},
 		{
 			"icon": {
@@ -43,13 +66,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 13,
-				"order": 16,
+				"order": 15,
 				"prevSize": 28,
 				"code": 61453,
 				"name": "close"
 			},
 			"setIdx": 1,
-			"iconIdx": 13
+			"iconIdx": 1
 		},
 		{
 			"icon": {
@@ -66,13 +89,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 40,
-				"order": 2,
+				"order": 1,
 				"prevSize": 28,
 				"code": 61483,
 				"name": "tag"
 			},
 			"setIdx": 1,
-			"iconIdx": 40
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -89,13 +112,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 60,
-				"order": 13,
+				"order": 12,
 				"prevSize": 28,
 				"code": 61504,
 				"name": "pencil"
 			},
 			"setIdx": 1,
-			"iconIdx": 60
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -113,13 +136,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 108,
-				"order": 11,
+				"order": 10,
 				"prevSize": 28,
 				"code": 61555,
 				"name": "calendar"
 			},
 			"setIdx": 1,
-			"iconIdx": 108
+			"iconIdx": 4
 		},
 		{
 			"icon": {
@@ -136,13 +159,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 110,
-				"order": 4,
+				"order": 3,
 				"prevSize": 28,
 				"code": 61557,
 				"name": "comment"
 			},
 			"setIdx": 1,
-			"iconIdx": 110
+			"iconIdx": 5
 		},
 		{
 			"icon": {
@@ -160,13 +183,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 117,
-				"order": 10,
+				"order": 9,
 				"prevSize": 28,
 				"code": 61564,
 				"name": "folder-open"
 			},
 			"setIdx": 1,
-			"iconIdx": 117
+			"iconIdx": 6
 		},
 		{
 			"icon": {
@@ -183,13 +206,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 126,
-				"order": 5,
+				"order": 4,
 				"prevSize": 28,
 				"code": 61574,
 				"name": "comments"
 			},
 			"setIdx": 1,
-			"iconIdx": 126
+			"iconIdx": 7
 		},
 		{
 			"icon": {
@@ -208,13 +231,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 169,
-				"order": 3,
+				"order": 2,
 				"prevSize": 28,
 				"code": 61633,
 				"name": "chain"
 			},
 			"setIdx": 1,
-			"iconIdx": 169
+			"iconIdx": 8
 		},
 		{
 			"icon": {
@@ -232,13 +255,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 170,
-				"order": 8,
+				"order": 7,
 				"prevSize": 28,
 				"code": 61634,
 				"name": "cloud"
 			},
 			"setIdx": 1,
-			"iconIdx": 170
+			"iconIdx": 9
 		},
 		{
 			"icon": {
@@ -255,13 +278,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 203,
-				"order": 6,
+				"order": 5,
 				"prevSize": 28,
 				"code": 61669,
 				"name": "comment-o"
 			},
 			"setIdx": 1,
-			"iconIdx": 203
+			"iconIdx": 10
 		},
 		{
 			"icon": {
@@ -278,13 +301,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 204,
-				"order": 7,
+				"order": 6,
 				"prevSize": 28,
 				"code": 61670,
 				"name": "comments-o"
 			},
 			"setIdx": 1,
-			"iconIdx": 204
+			"iconIdx": 11
 		},
 		{
 			"icon": {
@@ -301,13 +324,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 371,
-				"order": 9,
+				"order": 8,
 				"prevSize": 28,
 				"code": 61850,
 				"name": "wordpress"
 			},
 			"setIdx": 1,
-			"iconIdx": 371
+			"iconIdx": 12
 		},
 		{
 			"icon": {
@@ -324,13 +347,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 406,
-				"order": 15,
+				"order": 14,
 				"prevSize": 28,
 				"code": 61888,
 				"name": "database"
 			},
 			"setIdx": 1,
-			"iconIdx": 406
+			"iconIdx": 13
 		},
 		{
 			"icon": {
@@ -347,13 +370,13 @@
 			"attrs": [],
 			"properties": {
 				"id": 463,
-				"order": 14,
+				"order": 13,
 				"prevSize": 28,
 				"code": 61948,
 				"name": "paint-brush"
 			},
 			"setIdx": 1,
-			"iconIdx": 463
+			"iconIdx": 14
 		}
 	],
 	"height": 1024,
