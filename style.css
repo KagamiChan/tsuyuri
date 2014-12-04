@@ -1018,7 +1018,7 @@ ol .children{
 	font-family:"tsuyuricons";
 }
 
-.wordpress-footer:before{
+/*.wordpress-footer:before{
 	content: '\f19a';
 	font-family:"tsuyuricons";
 }
@@ -1031,7 +1031,7 @@ ol .children{
 .host-footer:before{
 	content: '\f1c0';
 	font-family:"tsuyuricons";
-}
+}*/
 /*.cat-links:before{
 	content: '\f301';
 	font-family:"tsuyuricons";
