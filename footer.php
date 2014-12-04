@@ -22,7 +22,7 @@
 			<span class="sep"> | </span>
 			<span class="host-footer">托管于 <a href="https://www.linode.com/?r=d4c7f3d8ab048130904fefe6d7dd68f80b861223" rel="host reference">Linode</a></span>
 			<br/>
-			2013-<script>document.write(new Date().getFullYear());</script> 鏡 ＠ がんばらないプロジェクト/翠星製作所
+			2013-<script>document.write(new Date().getFullYear());</script> 鏡 ＠ がんばらないプロジェクト/夜ノ森工房
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
