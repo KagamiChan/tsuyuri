@@ -12,6 +12,8 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> - <?php bloginfo( 'description' ); ?></a>
+			<br>
 			<span class="wordpress-footer">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'tsuyuri' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'tsuyuri' ), 'WordPress' ); ?></a></span>
 			<span class="sep"> | </span>
