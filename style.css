@@ -1130,12 +1130,23 @@ ol .children{
 	.site-title{
 		width:80px;
 		height:40px;
+		background-size: contain;
+	}
+
+	.site-content{
+		padding: 1em 1em 0 1em;
+	}
+
+	.site-branding{
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 	.main-navigation {
 		clear:both;
 		width: 80%;
-		padding:0px;
+		padding-left: 1em;
+		padding-right: 1em;
 		float:none;
 		margin-left:auto;
 		margin-right:auto;
