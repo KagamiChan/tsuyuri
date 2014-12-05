@@ -57,7 +57,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: "PT Sans", "hiragino Sans GB", "Source Han Sans CN", "Noto Sans S Chinese", "WenQuanYi Micohei", "Meiryo" sans-serif;
+	font-family: "PT Sans", "hiragino Sans GB", "Source Han Sans CN", "Noto Sans S Chinese", "WenQuanYi Micohei", "Meiryo", "Microsoft Yahei", sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
