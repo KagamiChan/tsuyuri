@@ -13,3 +13,4 @@ tsuyuri is released under GPLv2.
 - redefined secondary placed under primary
 - headers( H1 ~ H6 ) in blog content
 - modified comment area for better display
+- return to top button
