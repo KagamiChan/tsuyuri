@@ -793,7 +793,7 @@ a:hover{
 }
 
 body{
-	background-image: url('images/bg02.jpg');
+	/*background-image: url('images/bg02.jpg');*/
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	/*background-attachment: fixed;*/
