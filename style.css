@@ -844,13 +844,15 @@ body{
 	/*width:25%;*/
 }
 
+
+
 .site-title{
 	width:160px;
 	float:left;
 	height:80px;
 	overflow:hidden;
 	text-indent: -999px;
-	background-image:url('images/log_logo_14_white.png');
+	background-image:url('images/log_logo_14.png');
 	/*background-size:contain;*/
 	background-repeat:no-repeat;
 	background-position:center;
@@ -886,7 +888,7 @@ body{
 	font-size:110%;
 	clear:none;
 	float:left;
-	color:#fff;
+	/*color:#fff;*/
 }
 
 .main-navigation .menu li:hover{
