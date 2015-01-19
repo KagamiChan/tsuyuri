@@ -1,0 +1,95 @@
+.pace {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 2rem;
+    padding-top: calc(12%);
+}
+.pace:after {
+    content: "少女祈祷中……";
+    font-size: 4rem;
+    color: #29d;
+    font-weight: 300;
+    animation: praying 1s linear infinite;
+    -o-animation: praying 1s linear infinite;
+    -webkit-animation: praying 1s linear infinite;
+    -moz-animation: praying 1s linear infinite;
+    -ms-animation: praying 1s linear infinite;
+}
+.pace-progress {
+    background: #29d;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 8px;
+    background: repeating-linear-gradient(-45deg, #29d, #29d 10px, #1da0da 10px, #1da0da 20px);
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+}
+.pace-inactive {
+    display: none;
+}
+@-webkit-keyframes praying {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+@-moz-keyframes praying {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+@-o-keyframes praying {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+@-ms-keyframes praying {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+@keyframes praying {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}

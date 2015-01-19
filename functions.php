@@ -92,6 +92,10 @@ add_action( 'widgets_init', 'tsuyuri_widgets_init' );
  * Enqueue scripts and styles.
  */
 function tsuyuri_scripts() {
+	wp_enqueue_script( 'pace', get_template_directory_uri() . '/js/pace.min.js', array(), '1.0.2', true );
+
+	wp_enqueue_style( 'pace-style', get_template_directory_uri() . '/js/pace.css', array(), '1.0' );
+
 	wp_enqueue_style( 'webfont', get_template_directory_uri() . '/webfont/webfont.css', array(), '1.0' );
 
 	wp_enqueue_style( 'tsuyuricons', get_template_directory_uri() . '/tsuyuricons/tsuyuricons.css', array(), '1.1' );
