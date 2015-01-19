@@ -1196,7 +1196,8 @@ ol .children{
 
 @media screen and (max-width: 960px) {
 	#primary,
-	#secondary {
+	#secondary 
+	aside{
 		width:100%;
 	}
 
