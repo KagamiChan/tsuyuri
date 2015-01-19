@@ -926,14 +926,34 @@ body{
 	text-decoration:underline;
 }
 
+aside {
+	float: left;
+	width:45%;
+	/*overflow: hidden;*/
+}
+
+aside ul{
+	margin-left: 0;
+}
+
 aside li{
 	list-style:none;
+	display:block;
+	float: left;
 	font-size:90%;
+	padding: 0 0.5em 0 0.5em;
+
 }
 
 aside h1{
-	/*font-size:110%;*/
+	font-size:110%;
 	text-transform:uppercase;
+}
+
+.widget select{
+	padding: 3px;
+	line-height: 1.5;
+	box-sizing: content-box;
 }
 
 input[type="search"] {
