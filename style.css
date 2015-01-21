@@ -1026,6 +1026,10 @@ ol .children{
 	background-color:rgba(255, 255, 255, 0.8);
 }
 
+.headhesive--stick:hover{
+	background-color: #ffffff;
+}
+
 #cancel-comment-reply-link {
 	color:#00aeef;
 }
