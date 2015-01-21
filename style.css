@@ -946,8 +946,15 @@ aside li{
 }
 
 aside h1{
-	font-size:110%;
+	font-size:120%;
 	text-transform:uppercase;
+	clear: none;
+}
+
+aside h1:before{
+	color: #00ADEF;
+	content: '\f10c';
+	font-family: tsuyuricons;
 }
 
 .widget select{
